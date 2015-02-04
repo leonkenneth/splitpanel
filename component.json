@@ -1,0 +1,8 @@
+{
+  "name": "splitpanel",
+  "repo": "leonkenneth/splitpanel",
+  "description": "Simplistic split panel component",
+  "version": "0.0.1",
+  "scripts": [ "build/index.js" ],
+   "styles": [ "build/index.css" ]
+}

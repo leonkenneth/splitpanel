@@ -1,0 +1,31 @@
+.split {
+  width: 100%;
+  height: 100%;
+}
+
+.split.vertical > div {
+  height: 100%;
+  float: left;
+}
+
+.split.vertical > .split-content {
+  min-width: 20%;
+  max-width: 100%;
+}
+
+.split.vertical > .split-handle {
+  width: 15px;
+}
+
+.split.horizontal > div {
+  width: 100%;
+}
+
+.split.horizontal > .split-content {
+  min-height: 20%;
+  max-height: 100%;
+}
+
+.split.horizontal > .split-handle {
+  height: 15px;
+}
