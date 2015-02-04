@@ -184,6 +184,12 @@ function Splitter() {
 
     interact(handle)
       .draggable({
+        onstart: function () {
+          document.body.classList.add('split-resize-ongoing');
+        },
+        onend: function () {
+          document.body.classList.remove('split-resize-ongoing');
+        },
         onmove: function (event) {
           if (isVertical) {
             prevSibling.style.width = parseFloat(prevSibling.style.width) + event.dx;

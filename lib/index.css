@@ -29,3 +29,11 @@
 .split.horizontal > .split-handle {
   height: 15px;
 }
+
+.split-cursor-block {
+  pointer-events: none;
+}
+
+.split-resize-ongoing > .split-cursor-block {
+  pointer-events: inherit;
+}
